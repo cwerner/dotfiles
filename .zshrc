@@ -437,4 +437,4 @@ if [ -z "$TMUX" ]; then
     tmux attach -t default || tmux new -s default
 fi
 
-alias config='/usr/local/bin/git --git-dir=/Users/cwerner/.cfg/ --work-tree=/Users/cwerner'
+alias config='/usr/local/bin/git --git-dir=/Users/${USER}/.cfg/ --work-tree=/Users/${USER}'
