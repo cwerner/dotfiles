@@ -87,6 +87,10 @@ bindkey "^[[3~" delete-char
 #alias tmux="tmux -f ${HOME}/.config/tmux/tmux.conf"
 alias tmux="tmux -f ${HOME}/.tmux.conf"
 
+# prevent mouse artefacts in terminal after tmux crash; source: https://superuser.com/questions/802698/disable-mouse-reporting-in-a-terminal-session-after-tmux-exits-unexpectedly
+alias resetmouse='printf '"'"'\e[?1000l'"'"
+
+
 # deployment
 alias deploy="git remote | xargs -L1 git push"
 
