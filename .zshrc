@@ -204,7 +204,7 @@ if zplug check "bhilburn/powerlevel9k"; then
 
     #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context ssh root_indicator dir_writable dir )
     #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon root_indicator context dir_writable dir vcs)
-    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator virtualenv context dir_writable dir vcs)
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator virtualenv anaconda context dir_writable dir vcs)
     POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time background_jobs status time ssh)
 
     POWERLEVEL9K_VCS_CLEAN_BACKGROUND="green"
