@@ -142,8 +142,8 @@ export GIT_INTERNAL_GETTEXT_TEST_FALLBACKS=1
 
 
 alias config='/usr/local/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}'
-alias ls="colorls --sd -a --light"
-alias ll="ls -al"
+alias ls="colorls --sd -A --light"
+alias ll="ls -l"
 alias lt="ls --tree"
 
 # >>> conda initialize >>>
